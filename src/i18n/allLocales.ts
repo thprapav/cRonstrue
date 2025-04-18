@@ -1,6 +1,7 @@
 export { en } from "./locales/en"; // English
 export { da } from "./locales/da"; // Danish
 export { de } from "./locales/de"; // German
+export { el } from "./locales/el"; // Greek
 export { es } from "./locales/es"; // Spanish
 export { fr } from "./locales/fr"; // French
 export { it } from "./locales/it"; // Italian
