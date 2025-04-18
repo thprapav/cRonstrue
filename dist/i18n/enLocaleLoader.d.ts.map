@@ -1,0 +1,1 @@
+{"version":3,"file":"enLocaleLoader.d.ts","sourceRoot":"","sources":["../../src/i18n/enLocaleLoader.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,UAAU,CAAC;AAGlC,qBAAa,cAAc;IACzB,IAAI,CAAC,gBAAgB,EAAE;QAAE,CAAC,IAAI,EAAE,MAAM,GAAG,MAAM,CAAA;KAAE;CAGlD"}

@@ -45,6 +45,7 @@ build/
 # Jetbrains IDE
 .idea/
 
-/locales
-/dist
+# Uncomment these lines when developing and comment before commit
+# /locales
+# /dist
 /.vs

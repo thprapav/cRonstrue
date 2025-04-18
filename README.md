@@ -12,6 +12,8 @@ cRonstrue is a JavaScript library that parses a cron expression and outputs a hu
 
 This library was ported from the original C# implementation called [cron-expression-descriptor](https://github.com/bradymholt/cron-expression-descriptor) and is also available in a [few other languages](https://github.com/bradymholt/cron-expression-descriptor#ports).
 
+> **Note:** This fork adds Greek (el) locale support to the original package.
+
 ## Features
 - Zero dependencies
 - Supports all cron expression special characters including * / , - ? L W, #
@@ -209,9 +211,10 @@ The following locales can be passed in for the `locale` option.  Thank you to th
 - bg - Bulgarian ([kamenf](https://github.com/kamenf))
 - ca - Catalan ([Francisco Javier Barrena](https://github.com/fjbarrena))
 - cs - Czech ([hanbar](https://github.com/hanbar))
-- es - Spanish ([Ivan Santos](https://github.com/ivansg))
 - da - Danish ([Rasmus Melchior Jacobsen](https://github.com/rmja))
 - de - German ([Michael Schuler](https://github.com/mschuler))
+- el - Greek ([Thanos Prapavesis Semetzidis](https://github.com/thprapav))
+- es - Spanish ([Ivan Santos](https://github.com/ivansg))
 - fi - Finnish ([Mikael Rosenberg](https://github.com/MR77FI))
 - fr - French ([Arnaud TAMAILLON](https://github.com/Greybird))
 - fa - Farsi ([A. Bahrami](https://github.com/alirezakoo))

@@ -38,7 +38,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bradymholt/cronstrue.git"
+    "url": "git+https://github.com/thprapav/cRonstrue.git"
   },
   "publishConfig": {
     "access": "public"
@@ -65,9 +65,11 @@
   },
   "scripts": {
     "start": "npm run build",
-    "build": "npx tsc -p ./src --emitDeclarationOnly",
+    "build": "npm run build:types && npm run build:js",
+    "build:types": "npx tsc -p ./src --emitDeclarationOnly",
+    "build:js": "./node_modules/webpack-cli/bin/cli.js",
     "test": "npx mocha --reporter spec --require ts-node/register \"./test/**/*.ts\"",
-    "prepublishOnly": "rm -rf ./dist && ./node_modules/webpack-cli/bin/cli.js && git add -A"
+    "prepublishOnly": "rm -rf ./dist && npm run build && git add -A"
   },
   "dependencies": {}
 }

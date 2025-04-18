@@ -5,11 +5,13 @@
     "lib": ["ES2017", "DOM"],
     "outDir": "../dist",
     "noImplicitAny": true,
+    "strict": true,
     "removeComments": true,
     "preserveConstEnums": false,
     "sourceMap": true,
     "declaration": true,
-    "composite":true
+    "declarationMap": true,
+    "composite": true
   },
   "include": ["./**/*.ts"]
 }

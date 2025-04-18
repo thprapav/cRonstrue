@@ -1,0 +1,1 @@
+{"version":3,"file":"allLocalesLoader.d.ts","sourceRoot":"","sources":["../../src/i18n/allLocalesLoader.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,UAAU,CAAC;AAGlC,qBAAa,gBAAgB;IAC3B,IAAI,CAAC,gBAAgB,EAAE;QAAE,CAAC,IAAI,EAAE,MAAM,GAAG,MAAM,CAAA;KAAE;CAOlD"}
